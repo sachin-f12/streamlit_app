@@ -15,7 +15,8 @@ langchain-pinecone
 pinecone-client
 
 # ✅ PDF + text extraction
-pypdf
+pypdf         # newer version (optional)
+PyPDF2        # ✅ required by your app.py
 tiktoken
 textract==1.6.3
 unstructured
@@ -26,5 +27,5 @@ fpdf2
 # ✅ PyMuPDF (fitz)
 PyMuPDF
 
-# (Optional) if you still need fastmcp:
+# ✅ if you need fastmcp
 fastmcp==2.5.2
