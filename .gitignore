@@ -1,0 +1,50 @@
+# General OS files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Dependency directories
+node_modules/
+vendor/
+dist/
+build/
+out/
+
+# Environment and configuration files
+.env
+*.env.local
+*.env.*.local
+
+# Cache files
+*.cache
+__pycache__/
+*.pyc
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Sensitive data
+*.pem
+*.key
+*.cert
+*.secret
+
+myenv/
+
+faiss_index_*/

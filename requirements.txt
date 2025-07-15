@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+langchain-pinecone
+langchain-core
+pinecone-client
+pypdf
+tiktoken
+textract
+fpdfpip
+unstructured
+textract==1.6.3
+fitz
